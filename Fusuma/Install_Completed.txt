@@ -1,0 +1,37 @@
+Fusuma is now installed and running!
+
+Please open Settings ---> Workspace Behaviour ---> Desktop Effects
+and disable "Desktop Grid" and "Present Windows" to allow for these gestures
+to work correctly.
+
+You also need to navigate to Settings ---> Shortcuts ---> Kwin and
+enable the shortcut for "Switch One Desktop to the Left" and "Switch One Desktop to the Right"
+if they arent enabled already.
+
+You also need to change the "Maximize Window" shortcut to "Meta+Alt+Up"
+and "Minimize Window" shortcut to "Meta+Alt+Down" to get the tiling gestures to work.
+(Fusuma doesn't play nicely with the default key combo for these functions)
+
+Available gestures:
+
+Swipe with three fingers left and right side of your screen
+to tile a window to the left and right side of your screen respectively.
+
+Swipe with three fingers up to maximize a window and then again to restore it.
+
+Swiping down with three fingers acts as pull to refresh.
+
+Swipe up and down with four fingers to show and hide the desktop grid.
+
+Swipe with four fingers left and right to switch one desktop to the
+right and left respectively.
+
+Pinch with three fingers in to minimize a window and 3 fingers out to close it
+
+Pinch with four fingers in and out to show and hide the desktop.
+
+Try it out!
+
+Fusuma is created by GutHub user iberianpig (https://github.com/iberianpig/fusuma). I just decided to take its install instructions and compile it into a script for fun.
+
+You can press control+c to exit this window.

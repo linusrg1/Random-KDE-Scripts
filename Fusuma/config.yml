@@ -1,0 +1,37 @@
+swipe:
+  3:
+    left:
+        sendkey: "LEFTMETA+LEFT" # Tile window to left
+    right:
+        sendkey: "LEFTMETA+RIGHT" # Tile window to right
+    up:
+        sendkey: "LEFTMETA+LEFTALT+UP" # Maximize Window/Restore Window
+    down:
+        sendkey: "F5" # Pull to Refresh
+  4:
+    up:
+        sendkey: "LEFTMETA+F8" #show desktop grid
+    down:
+        sendkey: "METALEFT+F8" #hide desktop grid
+    left:
+        sendkey: "LEFTMETA+LEFTCONTROL+RIGHT" # Switch one desktop to the right
+    right:
+        sendkey: "LEFTMETA+LEFTCONTROL+LEFT" # Switch one desktop to the left
+pinch:
+  3:
+    in:
+        sendkey: "LEFTMETA+LEFTALT+DOWN" # Minimize window
+    out:
+        sendkey: "LEFTALT+F4" # Close window
+  4:
+    in:
+        sendkey: "LEFTMETA+D" #show desktop
+    out:
+        sendkey: "LEFTMETA+D" #show desktop
+
+threshold:
+  pinch: 0.5
+
+interval:
+  swipe: 0.75
+  pinch: 0.5

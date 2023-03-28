@@ -1,0 +1,8 @@
+[Unit]
+Description=Fusuma touch pad gestures
+
+[Service]
+ExecStart=~/Fusuma.sh
+
+[Install]
+WantedBy=multi-user.target
